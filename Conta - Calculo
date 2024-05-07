@@ -1,0 +1,29 @@
+def conta_calculadora (valor1 , valor2, operador):
+  if (operador == 1):
+    return valor1 + valor2
+  elif (operador == 2):
+    return valor1 - valor2
+  elif (operador == 3):
+    return valor1 * valor2
+  elif (operador == 4):
+    return valor1 / valor2
+  else:
+    return 0
+
+executar = True
+
+while (executar == True):
+  print("Escolha uma opção para continuar: ")
+  print("Sendo, Soma: 1; Subtração: 2; Multiplicação: 3; Divisão: 4 ou Sair: 0: ")
+operador = int(input())
+if (operador < 0) or (operador > 4):
+ print("Opção invalida, escolha de 0 a 4")
+elif (operador == 0):
+  executar = False
+else:
+  print("Digite o primeiro valor")
+  valor1 = int(input())
+  print("Digite o segundo valor")
+  valor2 = int(input())
+resultado = conta_calculadora (valor1 , valor2, operador)
+print(resultado)
