@@ -1,0 +1,14 @@
+def conta_calculadora (valor1 , valor2, operador):
+  if (operador == 1):
+    return valor1 + valor2
+  elif (operador == 2):
+    return valor1 - valor2
+  elif (operador == 3):
+    return valor1 * valor2
+  elif (operador == 4):
+    return valor1 / valor2
+  else:
+    return 0
+
+resultado = conta_calculadora (10,8,1)
+print(resultado)
