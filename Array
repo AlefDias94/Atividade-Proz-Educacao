@@ -1,0 +1,4 @@
+loja_tech = ["processador", "teclado", "mouse", "cooler", "fonte", "terminal"]
+print(loja_tech)
+nascimento = [1962, 1967, 1976, 1993, 1994, 1995, 1999, 2012, 2019]
+print(nascimento)
